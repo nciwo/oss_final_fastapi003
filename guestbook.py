@@ -1,5 +1,6 @@
 from fastapi import APIRouter, Path
 from model import GuestBook
+from datetime import datetime
 
 gb_router = APIRouter()
 
